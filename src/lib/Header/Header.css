@@ -1,0 +1,14 @@
+.header-container {
+  width: fit-content !important;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 3rem;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Header.css.map */
