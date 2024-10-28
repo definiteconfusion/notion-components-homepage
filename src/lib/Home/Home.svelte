@@ -2,8 +2,12 @@
 <script>
 import Header from '../Header/Header.svelte';
     let isActive = false
+    let isExtActive = false
     function toggleClass() {
         isActive = !isActive;
+    }
+    function extToggleClass() {
+        isExtActive = !isExtActive;
     }
     function copyToClipboard() {
         navigator.clipboard.writeText('npm i notion-components-react');
@@ -42,7 +46,7 @@ import Header from '../Header/Header.svelte';
         <div class="actions-container" style="margin-top: 50vh; margin-bottom: 2rem;">
             <!-- svelte-ignore a11y_no_static_element_interactions -->
             <!-- svelte-ignore a11y_click_events_have_key_events -->
-            <div class={isActive ? 'terminal-box-active' : 'terminal-box'} on:click={toggleClass}>
+            <div class={isExtActive ? 'terminal-box-active' : 'terminal-box'} on:click={extToggleClass}>
                 <pre class="code-main">
                     <code class="code-command">Playground</code>
                 </pre>
