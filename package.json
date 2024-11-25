@@ -1,22 +1,28 @@
 {
   "name": "notion-components-site",
   "private": true,
+  "module": "index.js",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^4.0.0",
-    "gh-pages": "^6.2.0",
-    "svelte": "^5.0.3",
-    "vite": "^5.4.9"
+    "start": "react-scripts start"
   },
   "dependencies": {
-    "@babel/standalone": "^7.26.1",
-    "monaco-editor": "^0.52.0",
-    "monaco-editor-webpack-plugin": "^7.1.0"
+    "notion-components-react": "^1.4.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
