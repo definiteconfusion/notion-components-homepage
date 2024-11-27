@@ -1,11 +1,75 @@
 .home-main {
-  margin-left: 5rem;
-  margin-top: 5rem;
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-title {
   margin: 0px;
   font-size: 6em;
+}
+
+.header-tabs {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.home-code {
+  padding: 1.25rem;
+  background: #F7F6F3;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+
+.warp-main {
+  width: 50vw;
+  height: 37.5vw;
+  border-radius: 0.5rem;
+  border: #E7E7E7 0.15rem solid;
+  background-color: white;
+}
+
+.mac-controller-red {
+  width: 1rem;
+  height: 1rem;
+  background-color: #FF5F57;
+  border-radius: 50%;
+  border: #E24238 1px soild;
+}
+
+.mac-controller-yellow {
+  width: 1rem;
+  height: 1rem;
+  background-color: #FEBC2E;
+  border-radius: 50%;
+  border: #E19E1C 1px soild;
+}
+
+.mac-controller-green {
+  width: 1rem;
+  height: 1rem;
+  background-color: #2BC840;
+  border-radius: 50%;
+  border: #1EAA29 1px soild;
+}
+
+.tile-label {
+  width: 25rem;
+  margin: 2rem;
+}
+
+.tile2-code {
+  background-color: white !important;
+  font-size: 1.25em;
+  margin-left: 1.5rem;
 }
 
 /*# sourceMappingURL=Home.css.map */
