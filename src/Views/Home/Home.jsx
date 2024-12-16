@@ -202,7 +202,7 @@ function App() {
 
     return (
         <>
-            <h1>Clicked {clicked} times</h1>
+            <Header1>Clicked {clicked} times</Header1>
             <Button onClick={increm}>Click</Button>
         </>
     );
